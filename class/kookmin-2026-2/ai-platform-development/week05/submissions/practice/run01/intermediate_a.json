@@ -1,0 +1,27 @@
+{
+  "warehouse": "A",
+  "total": 49,
+  "items": {
+    "볼펜": 12,
+    "노트": 3,
+    "지우개": 8,
+    "형광펜": 4,
+    "클립": 20,
+    "테이프": 2
+  },
+  "low_stock": [
+    {
+      "item": "노트",
+      "quantity": 3
+    },
+    {
+      "item": "형광펜",
+      "quantity": 4
+    },
+    {
+      "item": "테이프",
+      "quantity": 2
+    }
+  ],
+  "low_stock_basis": "warehouse_row"
+}

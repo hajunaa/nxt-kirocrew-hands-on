@@ -1,0 +1,27 @@
+{
+  "warehouse": "C",
+  "total": 36,
+  "items": {
+    "볼펜": 4,
+    "지우개": 10,
+    "가위": 3,
+    "클립": 11,
+    "스테이플러": 2,
+    "노트": 6
+  },
+  "low_stock": [
+    {
+      "item": "볼펜",
+      "quantity": 4
+    },
+    {
+      "item": "가위",
+      "quantity": 3
+    },
+    {
+      "item": "스테이플러",
+      "quantity": 2
+    }
+  ],
+  "low_stock_basis": "warehouse_row"
+}

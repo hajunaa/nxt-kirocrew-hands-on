@@ -1,0 +1,20 @@
+{
+  "warehouse": "B",
+  "total": 43,
+  "items": {
+    "볼펜": 5,
+    "노트": 15,
+    "지우개": 1,
+    "가위": 7,
+    "형광펜": 9,
+    "테이프": 6
+  },
+  "low_stock": [
+    {
+      "warehouse": "B",
+      "item": "지우개",
+      "quantity": 1
+    }
+  ],
+  "low_stock_basis": "warehouse_row"
+}

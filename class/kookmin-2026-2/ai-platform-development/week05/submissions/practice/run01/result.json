@@ -1,0 +1,85 @@
+{
+  "warehouses": {
+    "A": {
+      "total": 49,
+      "items": {
+        "볼펜": 12,
+        "노트": 3,
+        "지우개": 8,
+        "형광펜": 4,
+        "클립": 20,
+        "테이프": 2
+      }
+    },
+    "B": {
+      "total": 43,
+      "items": {
+        "볼펜": 5,
+        "노트": 15,
+        "지우개": 1,
+        "가위": 7,
+        "형광펜": 9,
+        "테이프": 6
+      }
+    },
+    "C": {
+      "total": 36,
+      "items": {
+        "볼펜": 4,
+        "지우개": 10,
+        "가위": 3,
+        "클립": 11,
+        "스테이플러": 2,
+        "노트": 6
+      }
+    }
+  },
+  "item_totals": {
+    "볼펜": 21,
+    "노트": 24,
+    "지우개": 19,
+    "형광펜": 13,
+    "클립": 31,
+    "테이프": 8,
+    "가위": 10,
+    "스테이플러": 2
+  },
+  "low_stock": [
+    {
+      "warehouse": "A",
+      "item": "노트",
+      "quantity": 3
+    },
+    {
+      "warehouse": "A",
+      "item": "형광펜",
+      "quantity": 4
+    },
+    {
+      "warehouse": "A",
+      "item": "테이프",
+      "quantity": 2
+    },
+    {
+      "warehouse": "B",
+      "item": "지우개",
+      "quantity": 1
+    },
+    {
+      "warehouse": "C",
+      "item": "볼펜",
+      "quantity": 4
+    },
+    {
+      "warehouse": "C",
+      "item": "가위",
+      "quantity": 3
+    },
+    {
+      "warehouse": "C",
+      "item": "스테이플러",
+      "quantity": 2
+    }
+  ],
+  "low_stock_basis": "warehouse_row"
+}
